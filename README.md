@@ -61,6 +61,8 @@ The database uses a star schema with the following tables:
 * The songplays table may have many `None` values for `song_id` and `artist_id` because only one match exists in the dataset.
 * `ON CONFLICT` clauses are used for upserts where appropriate.
 * Duration rounding is used for accurate joins between song and log data.
+* Due to file size, the data directory is not included in this repository. Please download the `data/` folder from the Udacity classroom or course resources and place it in the root directory of this project.
+
 
 ## Author
 
